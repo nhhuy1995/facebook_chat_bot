@@ -48,3 +48,4 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
 if(!empty($input['entry'][0]['messaging'][0]['message'])){
     $result = curl_exec($ch);
 }
+echo 1123;die;
