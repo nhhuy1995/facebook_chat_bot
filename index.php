@@ -9,7 +9,7 @@ $challenge = $_REQUEST['hub_challenge'];
 $verify_token = $_REQUEST['hub_verify_token'];
 
 // Set this Verify Token Value on your Facebook App
-if ($verify_token === 'YOURVERIFYTOKEN') {
+if ($verify_token === 'ma_xac_minh_cua_ong_huy') {
     echo $challenge;
 }
 $input = json_decode(file_get_contents('php://input'), true);
