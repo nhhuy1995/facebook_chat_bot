@@ -12,9 +12,6 @@ $verify_token = $_REQUEST['hub_verify_token'];
 if ($verify_token === 'YOURVERIFYTOKEN') {
     echo $challenge;
 }
-echo $challenge;
-echo $verify_token;
-die;
 $input = json_decode(file_get_contents('php://input'), true);
 
 // Get the Senders Graph ID
